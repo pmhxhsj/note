@@ -1,0 +1,19 @@
+.main-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  flex-direction: column;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.note-list {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  background-color: rgb(235, 235, 235);
+}
