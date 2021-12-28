@@ -8,24 +8,26 @@
   <title></title>
 </head>
 <body>
-  <form>
+  <form class="create-note-form">
     <table>
     <caption><h1>Create Note</h1></caption>
-    <thead>
-      <tr class="create-note-title">
-        <td>title:</td>
-        <td><input type="text"></td>
+    <thead class="create-note-title">
+      <tr>
+        <td><h3>title</h3></td>
+        <td><input id="title-input" type="text"></td>
       </tr>
       <tr>
-        <td>contents:</td>
-        <td><textarea id="create-note-contents"></textarea>
+        <td><h3>contents</h3></td>
+        <td><textarea></textarea>
       </tr>
       <tr class="create-note-button">
         <td></td>
-        <td><button>submit</td>
+        <td><button id="create-button">create</button></td>
       </tr>
     </thead>
     </table>
   </form>
+
+  <script type="module" src="../js/control.js"></script>
 </body>
 </html>
